@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'MyFont';
+    src:  url('../fonts/iconfont.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+body{
+    background: darkred;
+    font-family: 'MyFont';
+}
+body::after{
+    content: '你好凄凄切切啊实话实说';
+}
