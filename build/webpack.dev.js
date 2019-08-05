@@ -5,6 +5,6 @@ module.exports = merge(common, {
     devServer: {
         contentBase: './dist',
         hot: true,
-        hotOnly: true
+        // hotOnly: true
     }
 });
